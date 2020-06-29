@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Price Comparison</title>
+
+	<style>
+		body{
+			margin:0;
+			background: white;
+		}
+
+		body{
+			background:url('books.jpeg');
+			background-size:cover;
+			font-family: arial;
+
+		}
+		.warp{
+			width:500px;
+			margin: auto;
+			background:rgba(0,0,0,0.7);
+			margin-top:180px;
+			padding: 20px; 
+
+		}
+		form{
+			padding: 20px;
+			font-family: arial;
+			border: 2px dotted black;
+		}
+		h2{
+			text-align: center;
+			background:#2E8B57;
+			color: white;
+			padding: 15px;
+			border-radius: 10px;
+		}
+		input{
+			text-align: center;
+			padding: 10px;
+			margin: 10px;
+			border-radius:10px;
+			border: none;
+
+		}
+		input[type=text],input[type=number]{
+			width:90%;
+		}
+		input[type=submit]{
+			width: 95%;
+			background:#2E8B57;
+			font-size: 20px;
+			font-weight: bold;
+			color: white;
+		}
+		input[type=submit]:hover{
+			background: red;
+		}
+
+		}
+	</style>
+</head>
+<body>
+	
+
+
+	<div class ="warp">
+		<form action="connect.php" target="_blank" method="post">
+			<h2>
+				Book Price Comparison
+			</h2>
+			<input type="text" name="Title" placeholder="Title" >
+			<input type="Submit" value="Search">
+
+		</form>
+	</div>
+
+</body>
+</html>
